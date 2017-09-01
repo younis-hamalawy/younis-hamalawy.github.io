@@ -1283,6 +1283,25 @@
 		max-width: 100%;
 		margin: 0 auto 2em auto;
 	}
+		.inner-content {
+			display: flex;
+			justify-content: center;
+		}
+		.inside-content {
+			display: flex;
+			margin-bottom: 0.8em;
+			width: 90%;
+		}
+		.inside-content-h4 {
+			width: 20%;
+			font-size: 1em;
+			margin-right: 0.5em;
+			color: rgba(0, 0, 0, 0.7)
+		}
+		.inside-content-p {
+			font-size: 0.9em;
+			margin: 0;
+		}
 
 		.gallery article {
 			-moz-transition: -moz-transform 1s ease, opacity 1s ease;
