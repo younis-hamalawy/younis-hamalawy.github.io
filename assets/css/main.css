@@ -638,14 +638,14 @@
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #98c593;
+		background-color: #39454b;
 		border: 0;
-		border-radius: 3.5em;
+		border-radius: 0.5em;
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
-		height: 3.5em;
-		line-height: 3.5em;
+		height: 2.5em;
+		line-height: 2.5em;
 		outline: 0;
 		padding: 0 2em 0 2em;
 		position: relative;
@@ -1306,7 +1306,7 @@
 		.bottom-box {
 			margin-bottom: 1.5em;
 			display: flex;
-			justify-content: space-around;
+			justify-content: center;
 		}
 
 		.gallery article {
