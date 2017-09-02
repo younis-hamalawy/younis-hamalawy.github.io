@@ -1301,7 +1301,7 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		width: 45em;
+		width: 35em;
 		max-width: 100%;
 		margin: 0 auto 2em auto;
 	}
@@ -1719,7 +1719,7 @@
 			}
 
 				.gallery article {
-					width: 100%;
+					width: 70%;
 				}
 
 		}
