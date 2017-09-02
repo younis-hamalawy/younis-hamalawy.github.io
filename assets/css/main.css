@@ -638,7 +638,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #39454b;
+		background-color: #4f6068;
 		border: 0;
 		border-radius: 0.5em;
 		color: #ffffff;
@@ -651,6 +651,8 @@
 		position: relative;
 		text-align: center;
 		text-decoration: none;
+		font-weight: 600;
+		margin: 0 3em;
 	}
 
 		input[type="button"].down,
@@ -695,7 +697,7 @@
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #a8cea4;
+			background-color: #718893;
 		}
 
 		input[type="button"]:active,
@@ -703,7 +705,7 @@
 		input[type="reset"]:active,
 		.button:active,
 		button:active {
-			background-color: #88bc82;
+			background-color: #718893;
 		}
 
 		input[type="button"].style2,
