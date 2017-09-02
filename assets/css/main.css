@@ -629,6 +629,8 @@
 
 /* Button */
 
+
+
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
@@ -745,6 +747,15 @@
 			button.style2.down {
 				background-image: url("images/arrow.svg");
 			}
+
+				.button.sec {
+					border-radius: 0.3em;
+					border-width: 1em;
+					border: solid;
+					background-color: transparent;
+					border-color: #4f6068;
+					color: #4f6068;
+				}
 
 /* Form */
 
