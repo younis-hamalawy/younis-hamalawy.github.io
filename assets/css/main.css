@@ -627,6 +627,11 @@
 			padding-bottom: 2em;
 		}
 
+		.box.sec {
+			padding-bottom: 4em;
+			padding-top: 4em;
+		}
+
 /* Button */
 
 
