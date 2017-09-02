@@ -623,6 +623,10 @@
 
 		}
 
+		.main.style3.primary.sec {
+			padding-bottom: 2em;
+		}
+
 /* Button */
 
 	input[type="button"],
@@ -640,7 +644,7 @@
 		transition: background-color 0.2s ease-in-out;
 		background-color: #4f6068;
 		border: 0;
-		border-radius: 0.5em;
+		border-radius: 3.5em;
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
