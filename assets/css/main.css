@@ -1289,7 +1289,7 @@
 		}
 		.inside-content {
 			display: flex;
-			margin-bottom: 0.8em;
+			margin-bottom: 1.5em;
 			width: 90%;
 		}
 		.inside-content-h4 {
@@ -1304,7 +1304,8 @@
 		}
 
 		.bottom-box {
-			margin-bottom: 1.5em;
+			margin-bottom: 2.5em;
+			margin-top: 1em;
 			display: flex;
 			justify-content: center;
 		}
@@ -1813,7 +1814,7 @@
 		}
 
 			.main > .content > :last-child {
-				margin-bottom: 0;
+				/* margin-bottom: 0; */
 			}
 
 		.main.fullscreen {
