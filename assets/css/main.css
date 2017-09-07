@@ -2229,3 +2229,16 @@
 			}
 
 		}
+
+		@media screen and (max-width: 1000px) {
+			body,
+			input,
+			textarea,
+			select {
+				font-size: 13pt;
+			}
+			.devi-icons i {
+				font-size: 1.4rem;
+				margin: 0.1rem;
+			}
+		}
