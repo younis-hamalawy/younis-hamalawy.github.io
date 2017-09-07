@@ -667,12 +667,12 @@
 	}
 
 	.devi-icons i {
-		font-size: 1.8em;
-		margin: 0.1em;
+		font-size: 1.8rem;
+		margin: 0.1rem;
 	}
 	.devi-icons {
-		margin-right: 5em;
-		margin-top: 2.5em;
+		margin-right: 5rem;
+		margin-top: 2.5rem;
 		display: flex;
 		justify-content: space-between;
 	}
