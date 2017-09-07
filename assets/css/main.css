@@ -2228,6 +2228,9 @@
 				padding-bottom: 2em;
 			}
 
+		}
+
+		@media screen and (max-width: 1000px) {
 			.devi-icons i {
 				font-size: 1.4rem;
 				margin: 0.1rem;
