@@ -2235,4 +2235,10 @@
 				font-size: 1.4rem;
 				margin: 0.1rem;
 			}
+			p {
+			font-size: 90%;
+			}
+			.gallery {
+				align-items: center;
+			}
 		}
