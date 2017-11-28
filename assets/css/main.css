@@ -2231,6 +2231,7 @@ body.is-touch .main {
   /* background-size: 256px 256px, cover; */
   background-attachment: fixed, fixed;
   background-position: top left, center center;
+  background-repeat: repeat;
 }
 
 /* Two */
