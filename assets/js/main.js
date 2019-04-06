@@ -17,7 +17,7 @@
 
 	$(function () {
 
-		var $window = $(window),
+		var $(document) = $(window),
 			$body = $('body'),
 			$header = $('#header'),
 			$all = $body.add($header);
@@ -25,7 +25,7 @@
 		// Disable animations/transitions until the page has loaded.
 		$body.addClass('is-loading');
 
-		$window.on('load', function () {
+		$(document).on('load', function () {
 			window.setTimeout(function () {
 				$body.removeClass('is-loading');
 			}, 0);
@@ -51,14 +51,14 @@
 			var $main = $('.main.fullscreen'),
 				IEResizeTimeout;
 
-			$window
+			$(document)
 				.on('resize.ie-flexbox-fix', function () {
 
 					clearTimeout(IEResizeTimeout);
 
 					IEResizeTimeout = setTimeout(function () {
 
-						var wh = $window.height();
+						var wh = $(document).height();
 
 						$main.each(function () {
 
@@ -87,7 +87,7 @@
 		});
 
 		// Gallery.
-		$window.on('load', function () {
+		$(document).on('load', function () {
 
 			var $gallery = $('.gallery');
 
@@ -235,7 +235,7 @@
 		// Events.
 		var resizeTimeout, resizeScrollTimeout;
 
-		$window
+		$(document)
 			.resize(function () {
 
 				// Disable animations/transitions.
@@ -254,14 +254,14 @@
 					// Re-enable animations/transitions.
 					window.setTimeout(function () {
 						$body.removeClass('is-resizing');
-						$window.trigger('scroll');
+						$(document).trigger('scroll');
 					}, 0);
 
 				}, 100);
 
 			})
 			.on('load', (function () {
-				$window.trigger('resize');
+				$(document).trigger('resize');
 			}));
 
 	});
